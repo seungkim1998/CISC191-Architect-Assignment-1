@@ -33,5 +33,17 @@ public class SurfLocation {
         this.surfEnvironment = surfEnvironment;
     }
 
+    public String getBeachName() {
+        return this.beachName;
+    }
+
+    public boolean isSuitableForBeginners() {
+        return this.suitableForBeginners;
+    }
+
+    public String getSurfEnvironment() {
+        return this.surfEnvironment;
+    }
+
 }
 
